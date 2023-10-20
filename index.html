@@ -9,9 +9,16 @@
   <title>Navbar</title>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <style>
+    
     body {
       font-family: 'Poppins';
       /* font-size: 22px; */
+    }
+    .col{
+      padding: 0;
+    }
+    .text-1 .text-2{
+      padding: 0;
     }
 
    
@@ -23,13 +30,13 @@
     <div class="container px-1">
       <div class="row">
         <div class="col">
-          <a href="#"><img class="fluid-img" src="./RCA-LOGO-PNG.png" alt="RCA" width="50" height="50"
+          <a href="#"><img class="fluid-img ms-2" src="./RCA-LOGO-PNG.png" alt="RCA" width="50" height="50"
               class="d-inline-block align-text-top"></a>
         </div>
-        <div class="col">
-          <div class="row text-nowrap"><a href="#" style="text-decoration: none; color: rgb(242, 129, 33);">Rajasthan
+        <div class="col ms-1">
+          <div class="row text-nowrap text-1"><a href="#" style="text-decoration: none; color: rgb(242, 129, 33);">Rajasthan
               Cultural Association</a></div>
-          <div class="row" style="color: rgb(242, 129, 33);"><a href="#"
+          <div class="row text-2" style="color: rgb(242, 129, 33);"><a href="#"
               style="text-decoration: none; color: rgb(242, 129, 33);">IIT Kharagpur</a></div>
         </div>
       </div>
@@ -39,7 +46,7 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> -->
-      <button class="btn btn-outline-white px-1 py-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      <button class=" navbar-toggler btn btn-outline-white px-1 py-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span role="button" class="navbar-toggler-icon "></span>
       </button>
